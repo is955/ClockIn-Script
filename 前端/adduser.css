@@ -1,0 +1,14 @@
+.panel{
+	width: 300px;
+	margin: 20px auto;
+	
+}
+
+.panel input{
+	margin-bottom: 15px;
+}
+
+body{
+	transform: scale(1.5);
+	   transform-origin: 0 0;
+}

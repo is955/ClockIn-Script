@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>添加打卡用户</title>
+		<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery-3.6.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="adduser.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css"/>
+		<link rel="stylesheet" type="text/css" href="adduser.css"/>
+	</head>
+	<body>
+		<div class="panel layui-panel">
+			<div style="padding: 50px 30px;">
+				<fieldset class="layui-elem-field">
+				  <legend>添加/删除</legend>
+				  <div class="layui-field-box">
+				    <input id="username" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="账号" class="layui-input">
+				    <input id="password" type="password" name="title" lay-verify="title" autocomplete="off" placeholder="密码" class="layui-input">
+				    <input id="email" type="email" name="title" lay-verify="title" autocomplete="off" placeholder="邮箱" class="layui-input">
+				    <button id="sub" type="button" class="layui-btn layui-btn-normal">添加</button>
+					<button id="del" type="button" class="layui-btn layui-btn-normal">删除</button>
+				    <button id="res" type="button" class="layui-btn layui-btn-danger">重置</button>
+				  </div>
+				</fieldset>
+			</div>
+		</div>   
+	</body>
+</html>
